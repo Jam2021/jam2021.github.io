@@ -95,11 +95,15 @@ h1 {
   margin: 20px;
   color: #717171;
   line-height: 25px;
+  height: 600px;
 }
 .wrapper .main_content .info div{
   margin-bottom: 20px;
+	height: 100%;
 }
-
+.wrapper .main_content .info #canvas {
+	border: solid black;
+}
 @media (max-height: 500px){
   .social_media{
     display: none !important;
