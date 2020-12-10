@@ -104,6 +104,55 @@ h1 {
 .wrapper .main_content .info #canvas {
 	border: solid black;
 }
+
+/* Form styles */
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+  }
+  
+	#submitboton {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  #submitboton:hover {
+	background-color: #45a049;
+  }
+  
+  .container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+  }
+  
+  /*jquery hidden*/
+
+  .initiallyHidden {
+	visibility: hidden;
+	position: absolute;
+	padding-left: 20px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: black;
+	border-radius: 10px;
+	width: 200px;
+  color: white;
+	}
+
+
+
 @media (max-height: 500px){
   .social_media{
     display: none !important;
